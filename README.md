@@ -70,25 +70,25 @@ O objetivo do sistema é apoiar a análise de risco socioambiental de propriedad
 | 3 | Alta | Como usuário, quero visualizar informações básicas da propriedade para compreender seu contexto inicial. | 3 | 1 |
 | 4 | Alta | Como usuário, quero interagir com o mapa (zoom, navegação e clique) para explorar a propriedade. | 5 | 1 |
 | 5 | Alta | Como usuário, quero visualizar diferentes camadas ambientais no mapa para entender o contexto geográfico da propriedade. | 5 | 1 |
-| 6 | Alta | Como usuário, quero visualizar um indicador de carregamento para entender quando o sistema está processando informações. | 3 | 1 |
-| 7 | Alta | Como usuário, quero que o sistema utilize dados públicos integrados de diferentes fontes para garantir análises completas. | 8 | 1 |
-| 8 | Alta | Como usuário, quero que o sistema realize cruzamentos geoespaciais para identificar relações entre a propriedade e dados ambientais. | 8 | 1 |
-| 9 | Média | Como usuário, quero fazer perguntas em linguagem natural para obter informações sobre uma propriedade. | 5 | 2 |
-| 10 | Média | Como usuário, quero que o sistema compreenda diferentes formas de perguntas para obter respostas corretas independentemente da forma como escrevo. | 8 | 2 |
-| 11 | Média | Como usuário, quero saber se a propriedade possui passivos ambientais para avaliar riscos. | 5 | 2 |
-| 12 | Média | Como usuário, quero saber se a propriedade intersecta áreas protegidas para avaliar conformidade ambiental. | 5 | 2 |
-| 13 | Média | Como usuário, quero entender se a propriedade está em conformidade ambiental para tomada de decisão. | 8 | 2 |
-| 14 | Média | Como usuário, quero visualizar uma análise consolidada ASG para compreender o status geral da propriedade. | 8 | 2 |
-| 15 | Média | Como usuário, quero visualizar um score ASG para comparar propriedades. | 5 | 2 |
-| 16 | Média | Como usuário, quero receber explicações claras sobre os resultados para entender o motivo das análises. | 5 | 2 |
-| 17 | Média | Como usuário, quero visualizar a origem dos dados utilizados para garantir confiabilidade das análises. | 3 | 2 |
-| 18 | Baixa | Como usuário, quero visualizar áreas de risco destacadas no mapa para identificar problemas rapidamente. | 5 | 3 |
-| 19 | Baixa | Como usuário, quero acessar consultas anteriores para acompanhar análises realizadas. | 3 | 3 |
-| 20 | Baixa | Como usuário, quero que o sistema responda rapidamente para garantir uma boa experiência de uso. | 5 | 3 |
-| 21 | Baixa | Como usuário, quero uma interface simples e intuitiva para facilitar a utilização do sistema. | 3 | 3 |
-| 22 | Baixa | Como usuário, quero que o sistema possa ser integrado a ferramentas SIG, como o QGIS, para ampliar as possibilidades de análise. | 8 | 3 |
-| 23 | Baixa | Como usuário, quero acessar os dados e análises por meio de serviços para permitir integração com outras aplicações. | 8 | 3 |
-| 24 | Baixa | Como usuário, quero que meus dados estejam protegidos para garantir segurança e conformidade com a LGPD. | 5 | 3 |
+| 6 | Alta | Como usuário, quero que o sistema utilize dados públicos integrados de diferentes fontes para garantir análises completas. | 8 | 1 |
+| 7 | Média | Como usuário, quero fazer perguntas em linguagem natural para obter informações sobre uma propriedade. | 5 | 1 |
+| 8 | Média | Como usuário, quero que o sistema compreenda diferentes formas de perguntas para obter respostas corretas independentemente da forma como escrevo. | 8 | 1 |
+| 9 | Média | Como usuário, quero receber explicações claras sobre os resultados para entender o motivo das análises. | 5 | 1 |
+| 10 | Média | Como usuário, quero visualizar a origem dos dados utilizados para garantir confiabilidade das análises. | 3 | 1 |
+| 11 | Alta | Como usuário, quero visualizar um indicador de carregamento para entender quando o sistema está processando informações. | 3 | 2 |
+| 12 | Alta | Como usuário, quero que o sistema realize cruzamentos geoespaciais para identificar relações entre a propriedade e dados ambientais. | 8 | 2 |
+| 13 | Média | Como usuário, quero saber se a propriedade possui passivos ambientais para avaliar riscos. | 5 | 2 |
+| 14 | Média | Como usuário, quero saber se a propriedade intersecta áreas protegidas para avaliar conformidade ambiental. | 5 | 2 |
+| 15 | Média | Como usuário, quero entender se a propriedade está em conformidade ambiental para tomada de decisão. | 8 | 2 |
+| 16 | Média | Como usuário, quero visualizar uma análise consolidada ASG para compreender o status geral da propriedade. | 8 | 2 |
+| 17 | Média | Como usuário, quero visualizar um score ASG para comparar propriedades. | 5 | 2 |
+| 18 | Baixa | Como usuário, quero visualizar áreas de risco destacadas no mapa para identificar problemas rapidamente. | 5 | 2 |
+| 19 | Baixa | Como usuário, quero que meus dados estejam protegidos para garantir segurança e conformidade com a LGPD. | 5 | 2 |
+| 20 | Baixa | Como usuário, quero acessar consultas anteriores para acompanhar análises realizadas. | 3 | 3 |
+| 21 | Baixa | Como usuário, quero que o sistema responda rapidamente para garantir uma boa experiência de uso. | 5 | 3 |
+| 22 | Baixa | Como usuário, quero uma interface simples e intuitiva para facilitar a utilização do sistema. | 3 | 3 |
+| 23 | Baixa | Como usuário, quero que o sistema possa ser integrado a ferramentas SIG, como o QGIS, para ampliar as possibilidades de análise. | 8 | 3 |
+| 24 | Baixa | Como usuário, quero acessar os dados e análises por meio de serviços para permitir integração com outras aplicações. | 8 | 3 |
 
 <br />
 
@@ -101,11 +101,40 @@ O objetivo do sistema é apoiar a análise de risco socioambiental de propriedad
 
 <h2 id='sprints'> 📌 Sprints </h2>
 
-| Sprints | Data de Início | Data de Término | Documentos | Status |
-|--------|----------------|----------------|------------|--------|
-| 01 | 16/03/2026 | 05/04/2026 | Em breve | ▶️ |
-| 02 | 13/04/2026 | 03/05/2026 |  | ⏳ |
-| 03 | 11/05/2026 | 31/05/2026 |  | ⏳ |
+<table>
+  <thead>
+    <tr align="center">
+      <th>Sprints</th>
+      <th>Data de Início</th>
+      <th>Data de Término</th>
+      <th>Documentos</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr align="center">
+      <td>01</td>
+      <td>16/03/2026</td>
+      <td>05/04/2026</td>
+      <td><a href="https://github.com/Sync-FATEC/API-2026-6SEM/blob/main/sprints/sprint01/sprint01.md">Relatório</a></td>
+      <td>▶️</td>
+    </tr>
+    <tr align="center">
+      <td>02</td>
+      <td>13/04/2026</td>
+      <td>03/05/2026</td>
+      <td></td>
+      <td>⏳</td>
+    </tr>
+    <tr align="center">
+      <td>03</td>
+      <td>11/05/2026</td>
+      <td>31/05/2026</td>
+      <td></td>
+      <td>⏳</td>
+    </tr>
+  </tbody>
+</table>
 
 <br />
 
