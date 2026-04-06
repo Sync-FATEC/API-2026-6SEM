@@ -1,11 +1,10 @@
-
 <h1 style="text-align: center;">📌 Sprint 01</h1>
 
 <table>
   <tbody>
     <tr>
       <td><strong>Capacidade estimada da equipe</strong></td>
-      <td>50 Story Points</td>
+      <td>63 Story Points</td>
     </tr>
     <tr>
       <td><strong>Meta da Sprint</strong></td>
@@ -68,24 +67,36 @@
     </tr>
     <tr align="center">
       <td>7</td>
+      <td>Como administrador, quero atualizar a base de dados manualmente para garantir que o sistema utilize informações recentes.</td>
+      <td>O sistema disponibiliza um botão de atualização da base; ao acioná-lo, o pipeline ETL é executado; o sistema exibe status da execução (em andamento, sucesso ou erro) e registra logs da atualização.</td>
+      <td>5</td>
+    </tr>
+    <tr align="center">
+      <td>8</td>
+      <td>Como sistema, quero atualizar automaticamente os dados em intervalos definidos para manter a base sempre atualizada.</td>
+      <td>O sistema executa automaticamente o pipeline ETL em intervalos configuráveis (ex: diário); a execução não interrompe o uso do sistema; evita duplicação de dados e registra logs de cada execução.</td>
+      <td>8</td>
+    </tr>
+    <tr align="center">
+      <td>9</td>
       <td>Como usuário, quero fazer perguntas em linguagem natural para obter informações sobre queimadas, desmatamento, terras indígenas, unidades de conservação, comunidades quilombolas e imóveis rurais no Estado de São Paulo.</td>
       <td>O chat aceita perguntas em português e retorna resposta com resumo textual, dados estruturados e pontos no mapa para cada domínio suportado; perguntas fora do escopo retornam mensagem explicativa.</td>
       <td>5</td>
     </tr>
     <tr align="center">
-      <td>8</td>
+      <td>10</td>
       <td>Como usuário, quero que o sistema identifique automaticamente a intenção da minha pergunta para que eu receba a resposta correta sem precisar seguir um formato rígido.</td>
       <td>O classificador (Naive Bayes + TF-IDF treinado com 214 exemplos) identifica a intenção correta com confiança ≥ 0,3 para perguntas dentro do escopo; o sistema faz pré-processamento com tokenização, remoção de stopwords e stemming.</td>
       <td>8</td>
     </tr>
     <tr align="center">
-      <td>9</td>
+      <td>11</td>
       <td>Como usuário, quero receber um resumo textual junto com os pontos no mapa para entender de onde vieram os dados retornados.</td>
       <td>Cada resposta do chat inclui: resumo em português com quantidade de registros encontrados e localização, lista de dados com metadados e GeoJSON com os pontos plotados no mapa.</td>
       <td>5</td>
     </tr>
     <tr align="center">
-      <td>10</td>
+      <td>12</td>
       <td>Como usuário, quero visualizar a fonte de cada dado retornado (INPE, FUNAI, ICMBio, Palmares, SICAR) para garantir rastreabilidade das análises.</td>
       <td>Cada resposta exibe a lista de fontes utilizadas com nome e identificador; os dados no mapa contêm o campo "fonte" em suas propriedades GeoJSON.</td>
       <td>3</td>
