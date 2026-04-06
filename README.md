@@ -71,19 +71,21 @@ O objetivo do sistema é apoiar a análise de risco socioambiental de propriedad
 | 4 | Alta | Como usuário, quero interagir com o mapa (zoom, navegação e clique) para explorar a propriedade. | 5 | 1 |
 | 5 | Alta | Como usuário, quero visualizar diferentes camadas ambientais no mapa para entender o contexto geográfico da propriedade. | 5 | 1 |
 | 6 | Alta | Como usuário, quero que o sistema utilize dados públicos integrados de diferentes fontes para garantir análises completas. | 8 | 1 |
-| 7 | Média | Como usuário, quero fazer perguntas em linguagem natural para obter informações sobre queimadas, desmatamento, terras indígenas, unidades de conservação, comunidades quilombolas e imóveis rurais no Estado de São Paulo. | 5 | 1 |
-| 8 | Média | Como usuário, quero que o sistema identifique automaticamente a intenção da minha pergunta para que eu receba a resposta correta sem precisar seguir um formato rígido. | 8 | 1 |
-| 9 | Média | Como usuário, quero receber um resumo textual junto com os pontos no mapa para entender de onde vieram os dados retornados. | 5 | 1 |
-| 10 | Média | Como usuário, quero visualizar a fonte de cada dado retornado (INPE, FUNAI, ICMBio, Palmares, SICAR) para garantir rastreabilidade das análises. | 3 | 1 |
-| 11 | Alta | Como usuário, quero combinar dois temas em uma única pergunta (ex: "queimadas e unidades de conservação em Ubatuba") para obter respostas integradas sem precisar fazer consultas separadas. | 8 | 2 |
-| 12 | Alta | Como analista, quero que o sistema cruze os dados de um imóvel rural (CAR) com alertas de queimadas e desmatamento na mesma região para identificar automaticamente se a propriedade está associada a passivos ambientais. | 8 | 2 |
-| 13 | Alta | Como usuário, quero visualizar uma nota de risco socioambiental de 0 a 100 da propriedade consultada, calculada com base nos dados de desmatamento, queimadas e interseções com áreas protegidas, para apoiar a tomada de decisão. | 8 | 2 |
-| 14 | Média | Como usuário, quero exportar o resultado da análise em PDF contendo o resumo, os dados e o mapa para compartilhar ou arquivar o relatório. | 5 | 2 |
-| 15 | Média | Como usuário, quero visualizar o contorno correto do Estado de São Paulo no mapa para compreender os limites geográficos das análises realizadas. | 3 | 2 |
-| 16 | Alta | Como administrador, quero que o acesso à plataforma exija autenticação para garantir que apenas usuários autorizados utilizem o sistema. | 5 | 3 |
-| 17 | Alta | Como usuário, quero acessar o histórico das minhas consultas anteriores para retomar análises sem precisar repetir as perguntas. | 5 | 3 |
-| 18 | Alta | Como equipe, queremos que o sistema esteja implantado em ambiente de produção em nuvem para que esteja disponível de forma estável e escalável. | 8 | 3 |
-| 19 | Média | Como analista GIS, quero consumir as camadas geoespaciais geradas pelo sistema diretamente no QGIS para integrar os dados às minhas análises. | 8 | 3 |
+| 7 | Alta | Como administrador, quero atualizar a base de dados manualmente para garantir que o sistema utilize informações recentes. | 5 | 1 |
+| 8 | Alta | Como sistema, quero atualizar automaticamente os dados em intervalos definidos para manter a base sempre atualizada. | 8 | 1 |
+| 9 | Média | Como usuário, quero fazer perguntas em linguagem natural para obter informações sobre queimadas, desmatamento, terras indígenas, unidades de conservação, comunidades quilombolas e imóveis rurais no Estado de São Paulo. | 5 | 1 |
+| 10 | Média | Como usuário, quero que o sistema identifique automaticamente a intenção da minha pergunta para que eu receba a resposta correta sem precisar seguir um formato rígido. | 8 | 1 |
+| 11 | Média | Como usuário, quero receber um resumo textual junto com os pontos no mapa para entender de onde vieram os dados retornados. | 5 | 1 |
+| 12 | Média | Como usuário, quero visualizar a fonte de cada dado retornado (INPE, FUNAI, ICMBio, Palmares, SICAR) para garantir rastreabilidade das análises. | 3 | 1 |
+| 13 | Alta | Como usuário, quero combinar dois temas em uma única pergunta (ex: "queimadas e unidades de conservação em Ubatuba") para obter respostas integradas sem precisar fazer consultas separadas. | 8 | 2 |
+| 14 | Alta | Como analista, quero que o sistema cruze os dados de um imóvel rural (CAR) com alertas de queimadas e desmatamento na mesma região para identificar automaticamente se a propriedade está associada a passivos ambientais. | 8 | 2 |
+| 15 | Alta | Como usuário, quero visualizar uma nota de risco socioambiental de 0 a 100 da propriedade consultada, calculada com base nos dados de desmatamento, queimadas e interseções com áreas protegidas, para apoiar a tomada de decisão. | 8 | 2 |
+| 16 | Média | Como usuário, quero exportar o resultado da análise em PDF contendo o resumo, os dados e o mapa para compartilhar ou arquivar o relatório. | 5 | 2 |
+| 17 | Média | Como usuário, quero visualizar o contorno correto do Estado de São Paulo no mapa para compreender os limites geográficos das análises realizadas. | 3 | 2 |
+| 18 | Alta | Como administrador, quero que o acesso à plataforma exija autenticação para garantir que apenas usuários autorizados utilizem o sistema. | 5 | 3 |
+| 19 | Alta | Como usuário, quero acessar o histórico das minhas consultas anteriores para retomar análises sem precisar repetir as perguntas. | 5 | 3 |
+| 20 | Alta | Como equipe, queremos que o sistema esteja implantado em ambiente de produção em nuvem para que esteja disponível de forma estável e escalável. | 8 | 3 |
+| 21 | Média | Como analista GIS, quero consumir as camadas geoespaciais geradas pelo sistema diretamente no QGIS para integrar os dados às minhas análises. | 8 | 3 |
 
 <br />
 
@@ -118,7 +120,7 @@ O objetivo do sistema é apoiar a análise de risco socioambiental de propriedad
       <td>02</td>
       <td>13/04/2026</td>
       <td>03/05/2026</td>
-      <td></td>
+      <td><a href="https://github.com/Sync-FATEC/API-2026-6SEM/blob/main/sprints/sprint02/sprint02.md">Relatório</a></td>
       <td>⏳</td>
     </tr>
     <tr align="center">
