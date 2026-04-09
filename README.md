@@ -81,11 +81,13 @@ O objetivo do sistema é apoiar a análise de risco socioambiental de propriedad
 | 14 | Alta | Como analista, quero que o sistema cruze os dados de um imóvel rural (CAR) com alertas de queimadas e desmatamento na mesma região para identificar automaticamente se a propriedade está associada a passivos ambientais. | 8 | 2 |
 | 15 | Alta | Como usuário, quero visualizar uma nota de risco socioambiental de 0 a 100 da propriedade consultada, calculada com base nos dados de desmatamento, queimadas e interseções com áreas protegidas, para apoiar a tomada de decisão. | 8 | 2 |
 | 16 | Média | Como usuário, quero exportar o resultado da análise em PDF contendo o resumo, os dados e o mapa para compartilhar ou arquivar o relatório. | 5 | 2 |
-| 17 | Média | Como usuário, quero visualizar o contorno correto do Estado de São Paulo no mapa para compreender os limites geográficos das análises realizadas. | 3 | 2 |
-| 18 | Alta | Como administrador, quero que o acesso à plataforma exija autenticação para garantir que apenas usuários autorizados utilizem o sistema. | 5 | 3 |
-| 19 | Alta | Como usuário, quero acessar o histórico das minhas consultas anteriores para retomar análises sem precisar repetir as perguntas. | 5 | 3 |
-| 20 | Alta | Como equipe, queremos que o sistema esteja implantado em ambiente de produção em nuvem para que esteja disponível de forma estável e escalável. | 8 | 3 |
-| 21 | Média | Como analista GIS, quero consumir as camadas geoespaciais geradas pelo sistema diretamente no QGIS para integrar os dados às minhas análises. | 8 | 3 |
+| 17 | Média | Como usuário, quero acessar uma aba de dashboard com indicadores visuais para entender rapidamente a situação socioambiental das propriedades analisadas. | 3 | 2 |
+| 18 | Média | Como usuário, quero que o sistema tente novamente automaticamente quando ocorrer erro na obtenção de dados, para garantir que falhas momentâneas de instabilidade não impactem minha análise. | 8 | 2 |
+| 19 | Média | Como usuário, quero escolher quais bases de dados desejo atualizar e visualizar o status de cada atualização, para ter controle sobre o processo e entender se houve sucesso ou erro em cada fonte.| 5 | 2 |
+| 20 | Alta | Como administrador, quero que o acesso à plataforma exija autenticação para garantir que apenas usuários autorizados utilizem o sistema. | 5 | 3 |
+| 21 | Alta | Como usuário, quero acessar o histórico das minhas consultas anteriores para retomar análises sem precisar repetir as perguntas. | 5 | 3 |
+| 22 | Alta | Como equipe, queremos que o sistema esteja implantado em ambiente de produção em nuvem para que esteja disponível de forma estável e escalável. | 8 | 3 |
+| 23 | Média | Como analista GIS, quero consumir as camadas geoespaciais geradas pelo sistema diretamente no QGIS para integrar os dados às minhas análises. | 8 | 3 |
 
 <br />
 
