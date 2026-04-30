@@ -92,4 +92,4 @@
 </table>
 
 <h2>Modelo de dados</h2>
-<img src="https://github.com/Sync-FATEC/API-2026-6SEM/blob/main/sprints/sprint01/modelo-de-dados.png">
+<img src="https://github.com/Sync-FATEC/API-2026-6SEM/blob/main/sprints/sprint02/modelo-de-dados.png">
