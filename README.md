@@ -123,7 +123,7 @@ O objetivo do sistema é apoiar a análise de risco socioambiental de propriedad
       <td>13/04/2026</td>
       <td>03/05/2026</td>
       <td><a href="https://github.com/Sync-FATEC/API-2026-6SEM/blob/main/sprints/sprint02/sprint02.md">Relatório</a></td>
-      <td>⏳</td>
+      <td>✅</td>
     </tr>
     <tr align="center">
       <td>03</td>
