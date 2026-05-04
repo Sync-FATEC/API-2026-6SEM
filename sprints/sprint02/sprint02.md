@@ -93,3 +93,7 @@
 
 <h2>Modelo de dados</h2>
 <img src="https://github.com/Sync-FATEC/API-2026-6SEM/blob/main/sprints/sprint02/modelo-de-dados.png">
+
+<h2>MVP</h2>
+<img src="https://github.com/Sync-FATEC/API-2026-6SEM/assets/36ad075b-4e18-4a7c-b109-5cd9b4400429" 
+alt="MVP">
