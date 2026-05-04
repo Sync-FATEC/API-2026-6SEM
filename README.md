@@ -138,7 +138,7 @@ O objetivo do sistema é apoiar a análise de risco socioambiental de propriedad
 <br />
 
 <h2 id='mvp'> 🎥 MVP </h2>
-<img src="https://github.com/Sync-FATEC/API-2026-6SEM/assets/cf2ae83f-9e76-4ac0-8cf0-48ea02134a28" 
+<img src="https://github.com/Sync-FATEC/API-2026-6SEM/assets/36ad075b-4e18-4a7c-b109-5cd9b4400429" 
 alt="MVP">
 
 <br />
