@@ -130,7 +130,7 @@ O objetivo do sistema é apoiar a análise de risco socioambiental de propriedad
       <td>11/05/2026</td>
       <td>31/05/2026</td>
       <td><a href="https://github.com/Sync-FATEC/API-2026-6SEM/blob/main/sprints/sprint03/sprint03.md">Relatório</a></td>
-      <td>⏳</td>
+      <td>✅</td>
     </tr>
   </tbody>
 </table>
@@ -138,7 +138,7 @@ O objetivo do sistema é apoiar a análise de risco socioambiental de propriedad
 <br />
 
 <h2 id='mvp'> 🎥 MVP </h2>
-<img src="https://github.com/Sync-FATEC/API-2026-6SEM/assets/36ad075b-4e18-4a7c-b109-5cd9b4400429" 
+<img src="https://github.com/Sync-FATEC/API-2026-6SEM/assets/18feb9ed-6fc6-41a6-bd9c-5bc3bf46ea43" 
 alt="MVP">
 
 <br />
